@@ -1,4 +1,112 @@
-body{
-    background-color: #212529 ;
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+/*li para quitar puntos de los links*/
+li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+/*para quitar la raya de los link*/
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header{
+
+display: flex;
+justify-content: space-between;
+
+
+}
+
+
+ul{
+    display: flex;
     
+}
+
+a:link, a:hover{
+
+    color: #ffb742;
+}
+
+body{
+
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #212529 ;
+    color: #ffffff;
+    
+}
+#botonhire{
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #ffb742;
+    color: #1c1c1c;
+    display: inline-block  ;
+    margin: 10px;
+    width: 100px;
+    height: 20px;
+
+}
+
+.cajagris {
+
+    background-color: #292b2e;
+    
+}
+
+#cajasgrises{
+
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+
+}
+
+footer {
+
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+footer ul{
+
+    flex-direction: column;
+
+}
+
+#titulos{
+    font-family: 'Inter';
+    font-family:"inter";
+    display: block;
+    margin: 30,10;
+    text-align: center;
+}
+
+h2{
+    font-size: 32px;
+
+}
+
+#minombreamarillo{
+
+    color:#ffb742
+}
+
+#name{
+    color: #ffb742;
+}
+
+h1{
+    font-size: 48px;
 }
