@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@200;400;500;700&family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
     <title>CV</title>
     <link rel="shortcut icon" href="img/favi.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="stilos/estilos.css">
+    <link rel="stylesheet" href="stilos/contac.css">
 </head>
 
 <body>
@@ -23,74 +24,92 @@
            
         </nav>
 
-        <a href="botoncontratame.html">Hire Me</a>
+        <a id="botonhire" href="botoncontratame.html">Hire Me</a>
         
     </header>
 
-    <h2>Contact Me</h2>
 
-    <form name="miformulario" id="miformulario" method="get">
 
-        <input type="text" name="name" id="name">
-        <br>
-        <br>
-        <input type="email" name="youremail" id="youremail">
-        <br>
-        <br>
-        <input type="number" name="numero" id="numero" min="8" max="10">
-        <br>
-        <br>
-        <input type="submit" id="enviar" value="enviar" name="enviar">
+    <form class="formulario">
         
+        <h2 class="contacto">Contact Me</h2>
+
+        <div class="contenedordelform">
+
+            <div class="grupoform">
+                <input type="text" id="nombre" class="forminput" placeholder=" ">
+                <label for="nombre" class="formlabel">Nombre</label>
+                <span class="formline"></span>
+            </div>
+        
+
+        <div class="grupoform">
+            <input type="text" id="email" class="forminput" placeholder=" ">
+            <label for="email" class="formlabel">Email</label>
+            <span class="formline"></span>
+        </div>
+
+    <div class="grupoform">
+        <input type="text" id="telefono" class="forminput" placeholder=" ">
+        <label for="telefono" class="formlabel">telefono</label>
+        <span class="formline"></span>
+    </div>
+     
+    <input type="submit" class="formenviar" value="enviar">
+
+</div>
+
 
     </form>
 
-    <footer>
 
-        <section>
-            <h1>Andres Gutierrez</h1>
-            <H4>Aprendiz de desarrollo Web</H4>
-        </section>
-    
-        <h2>Useful Links</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="experience.html">Experiece</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-    
-        </nav>
-    
-        <h2>Social Media</h2>
-        <nav>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/andres-gm-b76462179/">Linkedin</a></li>
-                <li><a href="https://github.com/AndresGutierrez1992">GitHub</a></li>
-                <li><a href="https://www.instagram.com/andresgm_19/">Instagram</a></li>
-            </ul>
-    
-        </nav>
-    
-    
-        <h2>Hire Me</h2>
-    
-        <nav>
-    
-            <h4>Enter your email to get my</h4>
-            <h4>portafolio and cv</h4>
-    
-            <Form>
-                <input type="email" name="youremail" id="youremail">
-                <br />
-                <br>
-                <input type="submit" id="enviar" value="enviar" name="enviar">
-            </Form>
-    
-        </nav>
-    
-    </footer>
+    <footer>
+        <span>
+           <h1 id="name">Andres <br> Gutierrez</h1>
+           <h4>Aprendiz de desarrollo web</h4>
+
+        </span>
+   
+   <div>
+       <ul>
+           <h2>Useful Links</h2>
+           <br>
+           <li><a id="linkfooter" href="index.html">Home</a></li>
+           <li><a id="linkfooter" href="about.html">About</a></li>
+           <li><a id="linkfooter" href="experience.html">Experiece</a></li>
+           <li><a id="linkfooter" href="contact.html">Contact</a></li>
+       </ul>
+
+   </div>
+
+   <div>
+       <ul>
+           <h2>Social Media</h2>
+           <br>
+           <li><a id="linkfooter" href="https://www.linkedin.com/in/andres-gm-b76462179/">Linkedin</a></li>
+           <li><a id="linkfooter" href="https://github.com/AndresGutierrez1992">GitHub</a></li>
+           <li><a id="linkfooter" href="https://www.instagram.com/andresgm_19/">Instagram</a></li>
+       </ul>
+
+   </div>
+
+
+   <div>
+       <h2>Hire Me</h2>
+        <br>
+       <h4 id="linkfooter">Enter your email to get my</h4>
+       <h4 id="linkfooter">portafolio and cv</h4>
+
+       <form class="form">
+           <input type="email" name="youremail" id="youremail">
+       
+           <input type="submit" id="enviar" value="enviar" name="enviar">
+       </form>
+
+   </div>
+
+
+</footer>
     
 </body>
 
