@@ -1,132 +1,41 @@
-*{
-    margin: 0px;
-    box-sizing: border-box;
+.titulos {
+  display: block;
+  margin: 50, 20;
+  text-align: center;
+}
+
+h3 {
+  border-radius: 50;
+  color: #ffb742;
+  margin: 20px;
 }
 
 
 
-/*li para quitar puntos de los links*/
-li{
-    list-style-type: none;
-    margin: 10px;
+.cajasexpe {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 
-/*para quitar la raya de los link*/
-a{
-    text-decoration: none;
-    color: #ffffff;
+.cajasexpe section {
+  background-color: #ffffff;
+  color: #212529;
+  border-radius: 5px;
+  height: 500px;
+  width: 450px;
+  padding: 15px;
+  margin: 35px;
 }
 
-header{
-
-display: flex;
-justify-content: space-between;
-
-
+h3 {
+  border-radius: 50px;
+  padding: 15px;
+  background-color: #3c3934;
+  color: #ffb742;
+  display: inline-block;
+  margin: 10px;
+  width: 145px;
+  height: 50px;
 }
 
-body{
-
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
-    background-color: #212529 ;
-    color: #ffffff;
-    
-}
-#botonhire{
-    border-radius: 50px;
-    padding: 20px;
-    background-color: #ffb742;
-    color: #1c1c1c;
-    display: inline-block;
-    margin: 10px;
-    width: 115px;
-    height: 50px;
-
-}
-
-.titulos{
-
-    display: block;
-    margin: 50,20;
-    text-align: center;
-    
-}
-
-h3{
-    border-radius: 50;
-    color: #ffb742;
-    margin: 20px;
-}
-
-ul{
-    display: flex;
-    
-}
-
-a:link, a:hover{
-
-    color: #ffb742;
-}
-
-.cajasexpe{
-
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;    
-}
-
-.cajasexpe section{
-    background-color: #ffffff;
-    color: #212529;
-    border-radius: 5px;
-    height: 400px;
-    width: 350px;
-    padding: 10px;
-    margin: 35px;
-}
-
-h3{
-    border-radius: 50px;
-    padding: 15px;
-    background-color: #3c3934;
-    color: #ffb742;
-    display: inline-block;
-    margin: 10px;
-    width: 145px;
-    height: 50px;
-}
-
-
-
-footer {
-
-    background-color: #1c1c1c;
-    display: flex;
-    justify-content: space-between;
-    padding: 60px;
-
-
-}
-
-footer ul{
-
-    flex-direction: column;
-
-}
-
-#linkfooter{
-
-color: #7B7B7B;
-
-}
-
-#name{
-    color: #ffb742;
-}
-
-.form input {
-    border-radius: 50px;
-    height: 50px;
-    margin: 10px;
-}

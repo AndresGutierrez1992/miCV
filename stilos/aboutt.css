@@ -1,144 +1,50 @@
-*{
-    margin: 0px;
-    box-sizing: border-box;
+
+.descrip {
+  display: flex;
+  margin: 50px;
 }
 
-
-
-/*li para quitar puntos de los links*/
-li{
-    list-style-type: none;
-    margin: 10px;
+.descrip img {
+  margin: 90px;
+  width: 320px;
+  height: 550px;
 }
 
-/*para quitar la raya de los link*/
-a{
-    text-decoration: none;
-    color: #ffffff;
+.descrip h4 {
+  color: #ffb742;
+  border-radius: 50px;
+  padding: 20px;
+  background-color: #45423d;
+  display: inline-block;
+  margin: 0px;
+  width: 120px;
+  height: 60px;
 }
 
-header{
-
-display: flex;
-justify-content: space-between;
-
-
+.descrip section {
+  width: 60%;
+  height: 200px;
+  margin: 90px;
 }
 
-body{
-
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
-    background-color: #212529 ;
-    color: #ffffff;
-    
-}
-#botonhire{
-    border-radius: 50px;
-    padding: 20px;
-    background-color: #ffb742;
-    color: #1c1c1c;
-    display: inline-block;
-    margin: 10px;
-    width: 116px;
-    height: 50px;
-
-}
-ul{
-    display: flex;
-    
+h1 {
+  font-size: 2rem;
 }
 
-a:link, a:hover{
-
-    color: #ffb742;
+.parrafo {
+  font-size: 25px;
 }
 
-
-.descrip{
-
-    display: flex;
-    margin: 50px;
+#botoncontra {
+  border-radius: 50px;
+  padding: 11px;
+  background-color: #ffb742;
+  color: #1c1c1c;
+  display: inline-block;
+  margin: 0px;
+  width: 115px;
+  height: 50px;
+  font-size: 20px;
 }
 
-.descrip img{
-
-    margin: 90px;
-    width: 320px;
-    height: 550px;
-}
-
-.descrip h4{
-    color: #ffb742;
-    border-radius: 50px;
-    padding: 20px;
-    background-color: #45423d;
-    display: inline-block;
-    margin: 0px;
-    width: 120px;
-    height: 60px;
-}
-
-.descrip section{
-
-    width: 60%;
-    height: 200px;
-    margin: 90px;
-}
-
-h1{
-    font-size: 2rem;
-}
-
-.parrafo{
-    font-size: 25px;
-}
-
-
-
-#botoncontra{
-    border-radius: 50px;
-    padding: 20px;
-    background-color: #ffb742;
-    color: #1c1c1c;
-    display: inline-block;
-    margin: 0px;
-    width: 115px;
-    height: 50px;
-}
-
-
-
-
-footer {
-
-    background-color: #1c1c1c;
-    display: flex;
-    justify-content: space-between;
-    padding: 60px;
-
-
-}
-
-footer ul{
-
-    flex-direction: column;
-
-}
-
-#linkfooter{
-
-color: #7B7B7B;
-
-}
-
-#name{
-    color: #ffb742;
-}
-
-.form input {
-    border-radius: 50px;
-    height: 50px;
-    margin: 10px;
-}
 
