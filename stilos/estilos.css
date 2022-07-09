@@ -123,13 +123,24 @@ h2 {
   color: #ffb742;
 }
 
-.form input {
+.correo {
   border-radius: 50px;
   height: 50px;
   margin: 10px;
+  background-color: #7c7c77;
+  width: 250px;
 
 }
 
+.envi{
+  border-radius: 50px;
+  height: 50px;
+  margin: 10px;
+  background-image:url(../img/Vector.png) ;
+  background-color: #ffb742;
+  position: relative;
+  right: 65px;
+}
 
 h1 {
   font-size: 48px;
