@@ -36,6 +36,27 @@
   position: relative;
 }
 
+section {
+  background-color: #ffffff;
+  color: #212529;
+  border-radius: 5px;
+  height: 300px;
+  width: 450px;
+  padding: 15px;
+  margin: 35px;
+  
+}
+
+.unomas{
+  background-color: #ffb742;
+  color: black;
+  font-size: 25px;
+  border-radius: 15px;
+  font-style:initial;
+  margin-left: 300px;
+
+}
+
 .forminput {
   width: 100%;
   background: none;
@@ -47,20 +68,7 @@
   border-bottom: 1px solid #7b7b7b;
   font-family: "Roboto", sans-serif;
 }
-.forminput:focus + .formlabel,
-.forminput:not(:placeholder-shown) + .formlabel {
-  transform: translateY(-12px) scale(0.7);
-  transform-origin: left top;
-}
 
-.formlabel {
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  left: 5px;
-  transform: translateY(-25px);
-  font-size: 2em;
-}
 
 .formenviar {
   border-radius: 50px;
@@ -72,6 +80,12 @@
   height: 60px;
   font-size: 2rem;
 }
+
+.formulario .contenedordelform .grupoform ::placeholder{
+  color: #ffffff;
+}
+
+
 
 /*.cajasdetexto{
 

@@ -26,6 +26,7 @@ h3 {
   width: 450px;
   padding: 15px;
   margin: 35px;
+  
 }
 
 h3 {
@@ -37,5 +38,10 @@ h3 {
   margin: 10px;
   width: 145px;
   height: 50px;
+}
+
+.cajasexpe section div{
+  display: flex;
+  justify-content: space-between;
 }
 
