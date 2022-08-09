@@ -45,6 +45,7 @@ body {
 
 .generalContainer{
     flex: 1;
+    min-width: 900px;
 }
 
 #botonhire {
@@ -93,6 +94,7 @@ footer {
   padding: 60px;
   margin-top: 10em;
   padding-top: 170px;
+  min-width: 900px;
 }
 
 footer ul {

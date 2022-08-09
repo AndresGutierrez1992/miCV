@@ -2,13 +2,17 @@
 .descrip {
   display: flex;
   margin: 50px;
+  justify-content: center;
 }
 
-.descrip img {
-  margin: 90px;
+ .descrip img {
+  margin: 80px;
   width: 320px;
   height: 550px;
-}
+  padding-left: 25px;
+  min-width: 300px;
+  
+} 
 
 .descrip h4 {
   color: #ffb742;
@@ -24,7 +28,8 @@
 .descrip section {
   width: 60%;
   height: 200px;
-  margin: 90px;
+  margin: 70px;
+  min-width: 500px;
 }
 
 h1 {
@@ -33,6 +38,7 @@ h1 {
 
 .parrafo {
   font-size: 25px;
+  
 }
 
 #botoncontra {
