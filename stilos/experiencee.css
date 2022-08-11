@@ -16,6 +16,7 @@ h3 {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  
 }
 
 .cajasexpe section {
@@ -26,6 +27,7 @@ h3 {
   width: 450px;
   padding: 15px;
   margin: 35px;
+ 
   
 }
 
@@ -43,5 +45,16 @@ h3 {
 .cajasexpe section div{
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .cajasexpe{
+    flex-wrap: wrap;
+
+  }
+  .cajasexpe section{
+    height: 250px;
+  }
+
 }
 

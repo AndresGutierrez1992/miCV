@@ -36,7 +36,7 @@
   position: relative;
 }
 
-section {
+.chiste {
   background-color: #ffffff;
   color: #212529;
   border-radius: 5px;
@@ -54,6 +54,7 @@ section {
   border-radius: 15px;
   font-style:initial;
   margin-left: 300px;
+  border: none;
 
 }
 
@@ -79,10 +80,27 @@ section {
   width: 120px;
   height: 60px;
   font-size: 2rem;
+  border: none;
 }
 
 .formulario .contenedordelform .grupoform ::placeholder{
   color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .unomas{
+    margin-left: 0px;
+    margin: 10px;
+  }
+  .chiste{
+    width: 225px;
+    margin: auto;
+  }
+  .formenviar{
+    margin: auto
+    ;
+  }
+
 }
 
 
