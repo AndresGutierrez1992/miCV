@@ -32,9 +32,9 @@
   row-gap: 100px;
 }
 
-.grupoform {
+/* .grupoform {
   position: relative;
-}
+} */
 
 .chiste {
   background-color: #ffffff;
@@ -61,13 +61,13 @@
 .forminput {
   width: 100%;
   background: none;
-  color: #ffffff;
   font-size: 2em;
   padding: 0.6em 0.3;
   border: none;
   outline: none;
   border-bottom: 1px solid #7b7b7b;
   font-family: "Roboto", sans-serif;
+  color: #ffffff;
 }
 
 
