@@ -1,12 +1,13 @@
 let consulta = "";
 let pagina = 1;
+let cantidad=0;
 
 let anterior = document.querySelector(".anterior");
 let siguiente = document.querySelector(".siguiente");
 
 siguiente.addEventListener("click", () => {
   //document.querySelector(".munecos").textContent="";
-  if (pagina < 43) {
+  if (pagina<=cantidad) {
     pagina += 1;
     obtenerRick();
   }
@@ -33,6 +34,8 @@ const obtenerRick = async () => {
     // let contenedor = document.querySelector(".contenedor");
 
     elementos.results.forEach((personaje) => {
+
+       cantidad = personaje.pages;
 
       // const div = document.createElement("div");
       // div.classList.add("munecos");
