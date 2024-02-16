@@ -10,36 +10,35 @@
   width: 320px;
   height: 550px;
   padding-left: 25px;
-  min-width: 300px;
   
 } 
 
 .descrip h4 {
   color: #ffb742;
   border-radius: 50px;
-  padding: 20px;
+  padding: 16px;
   background-color: #45423d;
-  display: inline-block;
+  font-size: 25px;
   margin: 0px;
-  width: 120px;
+  width: 170px;
   height: 60px;
+
 }
 
-.descrip section {
-  width: 60%;
-  height: 200px;
-  margin: 70px;
-  min-width: 500px;
+.parrafo{
+  
+ margin-top: 100px;
+  
 }
+
+
+
 
 h1 {
   font-size: 2rem;
 }
 
-.parrafo {
-  font-size: 25px;
-  
-}
+
 
 #botoncontra {
   border-radius: 50px;
@@ -54,3 +53,25 @@ h1 {
 }
 
 
+@media screen and (max-width: 520px) {
+  .descrip img{
+    display: none;
+  }
+
+
+ 
+}
+
+@media screen and (max-width: 996px) {
+.descrip{
+  flex-wrap: wrap;
+}
+.parrafo{
+  margin: auto;
+  text-align: center;
+}
+.descrip h4{
+  margin: auto;
+}
+
+}

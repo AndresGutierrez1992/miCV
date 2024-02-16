@@ -1,3 +1,5 @@
+
+
 .titulos {
   display: block;
   margin: 50, 20;
@@ -16,6 +18,7 @@ h3 {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  
 }
 
 .cajasexpe section {
@@ -26,7 +29,27 @@ h3 {
   width: 450px;
   padding: 15px;
   margin: 35px;
-  
+}
+
+.cajasexpe section div{
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+
+.cajasexpe section img{
+  background-color:white;
+  border-radius: 21px;
+
+}
+.cajasexpe section h4{
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+.linkexpe{
+
+text-decoration-line: underline;
+color: #212529;
 }
 
 h3 {
@@ -44,4 +67,24 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 984px) {
+  .cajasexpe{
+    flex-wrap: wrap;
+
+  }
+
+}
+@media screen and (max-width: 1322px) {
+
+  .cajasexpe section{
+    height: 500px;
+  }
+
+  .cajasexpe section .text{
+    font-size: 14px;
+  }
+ 
+}
+
 
